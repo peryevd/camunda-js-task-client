@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "value": "Tg",
+          "label": "Tg"
+        },
+        {
+          "label": "Email",
+          "value": "Email"
+        }
+      ],
+      "label": "Radio",
+      "type": "radio",
+      "id": "Field_1ijrynk",
+      "key": "field_res",
+      "validate": {
+        "required": true
+      },
+      "defaultValue": "Tg"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0yyhmiv",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

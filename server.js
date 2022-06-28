@@ -21,9 +21,10 @@ client2.subscribe('SendTG', async function ({ task, taskService }) {
   const catFact = task.variables.get('catFact')
   console.log('==============', catFact)
 
-  axios.get(`https://api.telegram.org/yourbot=${catFact}`).then(response => {
-    //   processVariables.set('docFact', response.data.fact)
-    console.log('sent')
-    taskService.complete(task)
-  })
+//   axios.get(`https://api.telegram.org/yourbot=${catFact}`).then(response => {
+//     //   processVariables.set('docFact', response.data.fact)
+//     console.log('sent')
+//   })
+  taskService.complete(task)
+  
 })
